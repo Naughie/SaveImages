@@ -19,11 +19,11 @@
 ####Refresh Tokenを取得
 まず[Google API Console](https://console.developers.google.com/?hl=JA)のAPI Managerへアクセスし，新しいプロジェクトを作る．適当な名前で登録する．次にCredentials(認証情報)ページへ行き，Create new Client IDのプルダウンからOAuth Client IDを選択．
 
-![Pull down under Create new Client ID](Screenshots/CreateOAuthPulldown.png)
+![Pull down under Create new Client ID](https://github.com/Naughie/SaveImages/blob/master/Screenshots/CreateOAuthPulldown.png)
 
 Web Applicationを選択し，名前を適当に入力する．redirect先はhttp://localhost:4567にする．
 
-![Create OAuth Client](Screenshots/CreateOAuth.png)
+![Create OAuth Client](https://github.com/Naughie/SaveImages/blob/master/Screenshots/CreateOAuth.png)
 
 作成後，Client IDとClient Secretが表示されるのでメモする．Client Secretは他人に知られないように注意する．
 
@@ -300,9 +300,9 @@ end
 ###Keysを取得する
 
 [Twitter Application Management](https://apps.twitter.com/)でCreate New Appをクリックし，必要事項を記入する．
-![Twitter Application Management](Screenshots/TwitterApplicationManagement.png)
+![Twitter Application Management](https://github.com/Naughie/SaveImages/blob/master/Screenshots/TwitterApplicationManagement.png)
 Nameは既存のものは使えない．Websiteにlocalhostは使えないが適当なURLでよい．
-![Create Twitter App](Screenshots/CreateTwitterApp.png)
+![Create Twitter App](https://github.com/Naughie/SaveImages/blob/master/Screenshots/CreateTwitterApp.png)
 Developer Agreementにチェックをし，Create your Twitter Applicationをする．このApplicationの管理ページへredirectされるので，Keys and Access Tokensを選ぶ．Application SettingsにあるConsumer Key (API Key)とConsumer Secret (API Secret)をメモしておく．Consumer Secretは他人に知られてはいけない．Access Levelは目的に合ったものを選ぶ．Permissinosメニューから変更できる．
 
 ページ下部にあるYour Access TokenのToken ActionsからCreate my access tokenを選ぶ．Access TokenとAccess Token Secretをメモする．Access Token Secretは他人に知られてはいけない．
